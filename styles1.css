@@ -3,7 +3,19 @@
     padding: 0%;
     box-sizing: border-box;
     overflow-x:hidden;
+
     
+}
+@media(max-width:800px){
+    .item{
+        flex-direction: column;
+        gap:20px;
+
+    }
+    #navList,#spaceItems{
+        display: flex;
+        flex-direction: column;
+    }
 }
 .container{
      /* height:100vh; */
